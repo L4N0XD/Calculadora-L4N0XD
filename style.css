@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+/* Set global styles */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Set body styles */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+  }
+  
+
+  /* Style the form */
+  #div-form {
+    max-width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+  }
+
+  .container-switch {
+    max-width: 55px;
+    margin: 10px auto;
+
+
+  }
+  
+  /* Style the result input */
+  #result {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    width: 100%;
+    font-family: Orbitron;
+    font-size: 24px;
+    text-align: right;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .container-buttons {
+    text-align: center;
+  }
+
+  #calculate {
+    width: 245px;
+  }
+
+  /* Style the buttons */
+  button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #4286f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3862ce;
+  }
+
+  /* Style the clear button */
+  #clear {
+    background-color: #ff5c5c;
+    transition: background-color 0.3s ease;
+  }
+  #clear:hover {
+    background-color: #9a0606;
+  }
+  
+  /* Style the calculate button */
+  #calculate {
+    background-color: #4caf50;
+    transition: background-color 0.3s ease;
+  }
+  #calculate:hover {
+    background-color: #368338;
+  }  
+  
+  #night-mode {
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  font-size: 12px;
+  text-align: center;
+  }
+
+  /* Style the clear button in night mode */
+  #clear.night-mode {
+      background-color: #ff0000;
+      transition: background-color 0.3s ease;
+    }
+  #clear.night-mode:hover {
+        background-color: #f96060;
+      }
+    
+    /* Style the calculate button in night mode */
+  #calculate.night-mode {
+        background-color: #00ff00;
+        transition: background-color 0.3s ease;
+    }
+  #calculate.night-mode:hover {
+        background-color: #66d066;
+    }
+    
+    /* Style the buttons in night mode */
+  button.night-mode {
+      background-color: #3c1a3f;
+      transition: background-color 0.3s ease;
+    } 
+  button.night-mode:hover {
+    background-color: #56265a;
+  }
+  
+  /* Set night mode */
+  body.night-mode { 
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Set night mode for the result input */
+  #result.night-mode {
+    background-color: #857f98;
+    color: #fff;
+    border: 2px solid #3c1a3f;
+  }
+  
+  /* Set night mode for the form border */
+  #div-form.night-mode {
+    background-color: #666670;
+    border-color: #3c1a3f;
+  }
+
+  /* Set night mode for the night mode button */
+  #night-mode.night-mode {
+    background-color: #3c1a3f;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+
+  #night-mode.night-mode:hover {
+    background-color: #56265a;
+  }
